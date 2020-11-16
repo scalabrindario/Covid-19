@@ -2,7 +2,7 @@
 
 In this repository you can find a file named ```covid19.py``` that implements two different function.
 
-```country_cases(country, start_date, end_date)``` function given the country name and the time span, return a dataframe with all the Covid information in that specific time frames. 
+```country_cases(country_list, start_date, end_date)``` function given a list of countries and the time span, return a dataframe with all the Covid information in that specific time frames for all countries passed. 
 
 
 ```live_cases_world()``` function return a dataframe with all the daily covid information in that for every country of the world. This function is used in the ```main.py``` file to obtain the daily updates of Italy.
