@@ -1,4 +1,4 @@
-from covid19 import live_cases_world
+from covid_package.covid19 import live_cases_world
 import pandas as pd 
 
 df = live_cases_world()
