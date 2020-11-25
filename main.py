@@ -1,9 +1,14 @@
 from covid_package.covid19 import live_cases_world
+import sys
 import pandas as pd 
 
-df = live_cases_world()
+if len(sys.argv) > 1:
+	country = sys.argv[1]
+else:
+	print("Give me an argument to print")
+	exit()
 
-country = "Italy"
+df = live_cases_world()
 
 new_cases = df.loc[country]["NewConfirmed"]
 new_deaths = df.loc[country]["NewDeaths"]
