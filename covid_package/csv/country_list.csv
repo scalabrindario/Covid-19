@@ -1,0 +1,249 @@
+;Country;Slug;ISO2
+0;Sri Lanka;sri-lanka;LK
+1;Timor-Leste;timor-leste;TL
+2;Mauritania;mauritania;MR
+3;Chad;chad;TD
+4;Guyana;guyana;GY
+5;Malaysia;malaysia;MY
+6;New Zealand;new-zealand;NZ
+7;South Georgia and the South Sandwich Islands;south-georgia-and-the-south-sandwich-islands;GS
+8;Korea (South);korea-south;KR
+9;Belize;belize;BZ
+10;Denmark;denmark;DK
+11;Croatia;croatia;HR
+12;Taiwan, Republic of China;taiwan;TW
+13;Chile;chile;CL
+14;Kenya;kenya;KE
+15;Mayotte;mayotte;YT
+16;Nauru;nauru;NR
+17;Nicaragua;nicaragua;NI
+18;Spain;spain;ES
+19;Trinidad and Tobago;trinidad-and-tobago;TT
+20;Angola;angola;AO
+21;El Salvador;el-salvador;SV
+22;Portugal;portugal;PT
+23;Saint Lucia;saint-lucia;LC
+24;Sweden;sweden;SE
+25;Malta;malta;MT
+26;Paraguay;paraguay;PY
+27;Afghanistan;afghanistan;AF
+28;Andorra;andorra;AD
+29;Dominica;dominica;DM
+30;Madagascar;madagascar;MG
+31;Mexico;mexico;MX
+32;Norfolk Island;norfolk-island;NF
+33;Niger;niger;NE
+34;Greenland;greenland;GL
+35;Mali;mali;ML
+36;Iran, Islamic Republic of;iran;IR
+37;Mozambique;mozambique;MZ
+38;Netherlands Antilles;netherlands-antilles;AN
+39;Pakistan;pakistan;PK
+40;Switzerland;switzerland;CH
+41;French Southern Territories;french-southern-territories;TF
+42;Honduras;honduras;HN
+43;Bhutan;bhutan;BT
+44;Czech Republic;czech-republic;CZ
+45;Dominican Republic;dominican-republic;DO
+46;Sierra Leone;sierra-leone;SL
+47;Turks and Caicos Islands;turks-and-caicos-islands;TC
+48;Bahamas;bahamas;BS
+49;Kiribati;kiribati;KI
+50;Panama;panama;PA
+51;Bulgaria;bulgaria;BG
+52;Cocos (Keeling) Islands;cocos-keeling-islands;CC
+53;Nepal;nepal;NP
+54;Lebanon;lebanon;LB
+55;Micronesia, Federated States of;micronesia;FM
+56;Venezuela (Bolivarian Republic);venezuela;VE
+57;Bahrain;bahrain;BH
+58;Montserrat;montserrat;MS
+59;Martinique;martinique;MQ
+60;Israel;israel;IL
+61;Northern Mariana Islands;northern-mariana-islands;MP
+62;Réunion;réunion;RE
+63;Saint Vincent and Grenadines;saint-vincent-and-the-grenadines;VC
+64;Togo;togo;TG
+65;US Minor Outlying Islands;us-minor-outlying-islands;UM
+66;Albania;albania;AL
+67;Uzbekistan;uzbekistan;UZ
+68;Moldova;moldova;MD
+69;Somalia;somalia;SO
+70;French Guiana;french-guiana;GF
+71;Namibia;namibia;NA
+72;Thailand;thailand;TH
+73;Western Sahara;western-sahara;EH
+74;British Virgin Islands;british-virgin-islands;VG
+75;Costa Rica;costa-rica;CR
+76;Macedonia, Republic of;macedonia;MK
+77;Tajikistan;tajikistan;TJ
+78;Cook Islands;cook-islands;CK
+79;Christmas Island;christmas-island;CX
+80;Iraq;iraq;IQ
+81;Ireland;ireland;IE
+82;Korea (North);korea-north;KP
+83;Mongolia;mongolia;MN
+84;Tanzania, United Republic of;tanzania;TZ
+85;Belgium;belgium;BE
+86;Japan;japan;JP
+87;British Indian Ocean Territory;british-indian-ocean-territory;IO
+88;Finland;finland;FI
+89;Nigeria;nigeria;NG
+90;United Arab Emirates;united-arab-emirates;AE
+91;Zimbabwe;zimbabwe;ZW
+92;Australia;australia;AU
+93;Bolivia;bolivia;BO
+94;Egypt;egypt;EG
+95;Equatorial Guinea;equatorial-guinea;GQ
+96;Botswana;botswana;BW
+97;Cyprus;cyprus;CY
+98;Ecuador;ecuador;EC
+99;Gabon;gabon;GA
+100;Guadeloupe;guadeloupe;GP
+101;Iceland;iceland;IS
+102;Kuwait;kuwait;KW
+103;Uganda;uganda;UG
+104;Aruba;aruba;AW
+105;Palestinian Territory;palestine;PS
+106;Senegal;senegal;SN
+107;Tonga;tonga;TO
+108;Turkmenistan;turkmenistan;TM
+109;Bermuda;bermuda;BM
+110;Libya;libya;LY
+111;Guinea;guinea;GN
+112;Saint Pierre and Miquelon;saint-pierre-and-miquelon;PM
+113;San Marino;san-marino;SM
+114;Puerto Rico;puerto-rico;PR
+115;Austria;austria;AT
+116;India;india;IN
+117;Oman;oman;OM
+118;Gibraltar;gibraltar;GI
+119;Guatemala;guatemala;GT
+120;Hungary;hungary;HU
+121;Viet Nam;vietnam;VN
+122;Anguilla;anguilla;AI
+123;Burkina Faso;burkina-faso;BF
+124;Ghana;ghana;GH
+125;United States of America;united-states;US
+126;Cameroon;cameroon;CM
+127;Colombia;colombia;CO
+128;Algeria;algeria;DZ
+129;New Caledonia;new-caledonia;NC
+130;Russian Federation;russia;RU
+131;United Kingdom;united-kingdom;GB
+132;Uruguay;uruguay;UY
+133;Comoros;comoros;KM
+134;Papua New Guinea;papua-new-guinea;PG
+135;Norway;norway;NO
+136;Zambia;zambia;ZM
+137;Isle of Man;isle-of-man;IM
+138;Morocco;morocco;MA
+139;Ethiopia;ethiopia;ET
+140;Guam;guam;GU
+141;Haiti;haiti;HT
+142;Saint Kitts and Nevis;saint-kitts-and-nevis;KN
+143;Poland;poland;PL
+144;Republic of Kosovo;kosovo;XK
+145;Côte d'Ivoire;cote-divoire;CI
+146;Peru;peru;PE
+147;Qatar;qatar;QA
+148;Latvia;latvia;LV
+149;Philippines;philippines;PH
+150;Djibouti;djibouti;DJ
+151;French Polynesia;french-polynesia;PF
+152;Marshall Islands;marshall-islands;MH
+153;Serbia;serbia;RS
+154;Guinea-Bissau;guinea-bissau;GW
+155;Congo (Kinshasa);congo-kinshasa;CD
+156;Holy See (Vatican City State);holy-see-vatican-city-state;VA
+157;Antigua and Barbuda;antigua-and-barbuda;AG
+158;Slovakia;slovakia;SK
+159;Yemen;yemen;YE
+160;Liechtenstein;liechtenstein;LI
+161;South Africa;south-africa;ZA
+162;Heard and Mcdonald Islands;heard-and-mcdonald-islands;HM
+163;Kazakhstan;kazakhstan;KZ
+164;Myanmar;myanmar;MM
+165;Georgia;georgia;GE
+166;Greece;greece;GR
+167;Argentina;argentina;AR
+168;Belarus;belarus;BY
+169;Cayman Islands;cayman-islands;KY
+170;Jordan;jordan;JO
+171;Netherlands;netherlands;NL
+172;Saint-Barthélemy;saint-barthélemy;BL
+173;ALA Aland Islands;ala-aland-islands;AX
+174;Cambodia;cambodia;KH
+175;Canada;canada;CA
+176;Estonia;estonia;EE
+177;Falkland Islands (Malvinas);falkland-islands-malvinas;FK
+178;Virgin Islands, US;virgin-islands;VI
+179;Singapore;singapore;SG
+180;Turkey;turkey;TR
+181;China;china;CN
+182;Jersey;jersey;JE
+183;Rwanda;rwanda;RW
+184;Ukraine;ukraine;UA
+185;Solomon Islands;solomon-islands;SB
+186;Swaziland;swaziland;SZ
+187;Liberia;liberia;LR
+188;Kyrgyzstan;kyrgyzstan;KG
+189;Lao PDR;lao-pdr;LA
+190;Lesotho;lesotho;LS
+191;Niue;niue;NU
+192;Cuba;cuba;CU
+193;Bouvet Island;bouvet-island;BV
+194;Cape Verde;cape-verde;CV
+195;France;france;FR
+196;Guernsey;guernsey;GG
+197;Mauritius;mauritius;MU
+198;Slovenia;slovenia;SI
+199;American Samoa;american-samoa;AS
+200;Benin;benin;BJ
+201;Faroe Islands;faroe-islands;FO
+202;Macao, SAR China;macao-sar-china;MO
+203;Barbados;barbados;BB
+204;Brazil;brazil;BR
+205;Saudi Arabia;saudi-arabia;SA
+206;Suriname;suriname;SR
+207;Burundi;burundi;BI
+208;Germany;germany;DE
+209;Saint-Martin (French part);saint-martin-french-part;MF
+210;Vanuatu;vanuatu;VU
+211;Grenada;grenada;GD
+212;Pitcairn;pitcairn;PN
+213;Luxembourg;luxembourg;LU
+214;Maldives;maldives;MV
+215;Romania;romania;RO
+216;Seychelles;seychelles;SC
+217;Congo (Brazzaville);congo-brazzaville;CG
+218;Brunei Darussalam;brunei;BN
+219;Hong Kong, SAR China;hong-kong-sar-china;HK
+220;Indonesia;indonesia;ID
+221;Malawi;malawi;MW
+222;Antarctica;antarctica;AQ
+223;Sao Tome and Principe;sao-tome-and-principe;ST
+224;Syrian Arab Republic (Syria);syria;SY
+225;Central African Republic;central-african-republic;CF
+226;Fiji;fiji;FJ
+227;Gambia;gambia;GM
+228;Jamaica;jamaica;JM
+229;Monaco;monaco;MC
+230;Montenegro;montenegro;ME
+231;Palau;palau;PW
+232;Samoa;samoa;WS
+233;Bosnia and Herzegovina;bosnia-and-herzegovina;BA
+234;Eritrea;eritrea;ER
+235;Wallis and Futuna Islands;wallis-and-futuna-islands;WF
+236;Svalbard and Jan Mayen Islands;svalbard-and-jan-mayen-islands;SJ
+237;Tuvalu;tuvalu;TV
+238;South Sudan;south-sudan;SS
+239;Italy;italy;IT
+240;Saint Helena;saint-helena;SH
+241;Armenia;armenia;AM
+242;Bangladesh;bangladesh;BD
+243;Tokelau;tokelau;TK
+244;Azerbaijan;azerbaijan;AZ
+245;Sudan;sudan;SD
+246;Lithuania;lithuania;LT
+247;Tunisia;tunisia;TN
