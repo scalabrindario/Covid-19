@@ -22,13 +22,13 @@ The user will be able to select any **country** in the world, passing the corres
 The complete list of country codes is contained in a _csv_ file located in ```covid_package/csv/```.
 Some examples of country codes and corresponding country are:
  
-Country Code | Country Name
------------- | ------------
-	 IT      |    Italy  
-	 FR      |    France  
-	 GR      |    Germany  
-	 ES      |    Spain  
-	 AU      |    Australia  
+| Country Code | Country Name|
+|--------------|-------------|
+|	 IT        |   Italy     | 
+|	 FR        |   France    |
+|	 GR        |   Germany   |
+|	 ES        |   Spain     |
+|	 AU        |   Australia |
 
 
 ### Timespan
