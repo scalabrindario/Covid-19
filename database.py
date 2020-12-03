@@ -57,13 +57,18 @@ def check_for_username(username, password):
 	conn.commit()
 	results = rows.fetchall()
 
-	# get salt of the database and add the given password
-	password = str(results[0][2]) + password
+	for i in range(len(results)):
+		if results[i][0] == password:
+			# Get the salt from the database
+			salt = results[i][2]
+			# Forming the new password with a new password
+			password = str(results[i][2]) + password
+ 
 	# compute hash of the password
 	digest = hashlib.sha256(password.encode("utf-8")).hexdigest()
 
 	# check if computed digest is equal to stored digest
-	if digest == results[0][1].lower():
+	if digest == results[i][1].lower():
 		return True 
 	else: 
 		return False
@@ -72,13 +77,13 @@ def parse_argument():
 	parser = argparse.ArgumentParser()
 	
 	# command to add a user
-	parser.add_argument("-a", help = "add a username (requires -p)", required = False, action = "store_true", default = None)
+	parser.add_argument("-a", help = "add a username (requires -p)", required = False)
 
 	# command to check user credentials
-	parser.add_argument("-u", help = "check for a username and a password, (requires -p)", required = False, default = None)
+	parser.add_argument("-u", help = "check for a username and a password, (requires -p)", required = False)
 
 	# command for the user password
-	parser.add_argument("-p", help = "the username password ", required = True, default = None)
+	parser.add_argument("-p", help = "the username password ", required = True)
 
 	return parser.parse_args()
 
