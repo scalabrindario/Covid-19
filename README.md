@@ -2,9 +2,9 @@
 
 In this repository you can find a file named ```main.py``` that triggers the Covid-19's API in order to gather data about pandemic development.
 
-By running ```$python main.py <country_code>```, we will provide you with up to date information about Covid-19 cases of the selected country.
+By running ```$python main.py <country_code> -u admin -p admin```, we will provide you with up to date information about Covid-19 cases of the selected country.
 
-For example, executing ```$python main.py IT```, the output will be akin to this: 
+For example, executing ```$python main.py IT -u admin -p admin```, the output will be akin to this: 
 
 ```
 Italy live update as of 2020-11-27:
@@ -47,11 +47,22 @@ In order to execute the ```main.py``` file, some command line parameters must be
 #### Optional Argument
 - **-h, --help**: displays all the possible options for each parameter; 
 - **-v**:  displays the output with different levels of verbosity (at the moment only one level of verbosity is supported);
-- **-t**: displays the timespan chosen by the user. As said before there are two different choices (_partial_ and _total_).
+- **-t**: displays the timespan chosen by the user. As said before there are two different choices (_partial_ and _total_);
+- **-u**: the username. This parameter is REQUIRED;
+- **-p**: the password. This parameter is REQUIRED.
 
+## How to manage the database :file_cabinet:
+In order to run ```main.py``` the user needs to provide **username** and the relative **password**. We set a default user with the following credentials:
+- *username*: **admin**; 
+- *password*: **admin**.
+
+#### How to add a new user
+In order to add a new user to the database you have to run the ```database.py``` file with the command ```-a```. You should also specify the new password. 
+
+Here an example: ```$python database.py -a andrea -p helloworld```.
 
 ## Project Requirements :warning:  
-The project requires different Python libraries to run, namely ```json```, ```requests```, ```pandas``` and ```argparse```. 
+The project requires different Python libraries to run, namely ```json```, ```requests```, ```pandas```, ```hashlib```, ```os```, ```random```, ```sqlite3``` and ```argparse```. 
 
 ## References :blue_book:
 This API is offered by [Covid API](https://covid19api.com/), and the source of all the data is [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19). The APIs are documented in a [API documentation page](https://documenter.getpostman.com/view/10808728/SzS8rjbc) and can be further expanded with optional premium features. 
