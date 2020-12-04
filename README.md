@@ -69,7 +69,7 @@ Here an example: ```$python database.py -u admin -p admin -d```.
 ## Testing Functionality :wrench: 
 We tested part of our code, the specific folder is here ```covid_package/test/```. 
 Inside this folder we created a module called ```test_csv_maker.py```. <br>
-If you want to make some tests please run the following code: ```$python -m unittest -v -b covid_package/test/csv_maker.py ``` the output will be similar to this  
+If you want to make some tests please run the following code: <br> ```$python -m unittest -v -b covid_package/test/csv_maker.py ``` the output will be similar to this  
 
 ```
 test_empty_datafile (covid_package.test.test_csv_maker.TestCovid19) ... ok
