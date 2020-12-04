@@ -66,7 +66,9 @@ def check_for_username(username, password):
  
 	# compute hash of the password
 	digest = hashlib.sha256(password.encode("utf-8")).hexdigest()
-
+	print("password: ", password)
+	print("digest calcol: ", digest)
+	print("stored digest: ", results[i][1].lower())
 	# check if computed digest is equal to stored digest
 	if digest == results[i][1].lower():
 		return True 
@@ -85,7 +87,19 @@ def parse_argument():
 	# command for the user password
 	parser.add_argument("-p", help = "the username password ", required = True)
 
+	# command to display all users
+	parser.add_argument("-d", help = "display all users, requires admin user", required = False, action = "store_true")
+
 	return parser.parse_args()
+
+def display_all_users():
+	rows = cursor.execute("SELECT username FROM user")
+	conn.commit()
+	results = rows.fetchall()
+
+	print("Users: ")
+	for row in results:
+		print(row[0])
 
 if __name__ == "__main__":
 	
@@ -94,9 +108,16 @@ if __name__ == "__main__":
 	open_and_create(path)
 
 	args = parse_argument()
-
+	
 	if args.a and args.p: 
 		save_new_username(args.a, args.p)
-	elif args.u and args.p: 
+	elif args.u and args.p and not args.d: 
 		check_for_username(args.u, args.p)
+	elif args.u == "admin" and args.p and args.d:
+		if check_for_username(args.u, args.p) == True:
+			display_all_users()
+		else:
+			print("Wrong password")
+	else:
+		print("Something went wrong, type -h for help")
 	conn.close()
