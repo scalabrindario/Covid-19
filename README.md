@@ -68,7 +68,8 @@ Here an example: ```$python database.py -u admin -p admin -d```.
 
 ## Testing Functionality :wrench: 
 We tested part of our code, the specific folder is here ```covid_package/test/```. 
-Inside this folder we created a module called ```test_csv_maker.py```. If you want to make some tests please run the following code: ```$python -m unittest -v -b covid_package/test/csv_maker.py ``` the output will be similar to this  
+Inside this folder we created a module called ```test_csv_maker.py```. 
+If you want to make some tests please run the following code: ```$python -m unittest -v -b covid_package/test/csv_maker.py ``` the output will be similar to this  
 
 ```
 test_empty_datafile (covid_package.test.test_csv_maker.TestCovid19) ... ok
@@ -86,7 +87,8 @@ OK
 The project requires different Python libraries to run, namely ```json```, ```requests```, ```pandas```, ```hashlib```, ```os```, ```random```, ```sqlite3```, ```unittest``` and ```argparse```. 
 
 ## References :blue_book:
-This API is offered by [Covid API](https://covid19api.com/), and the source of all the data is [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19). The APIs are documented in a [API documentation page](https://documenter.getpostman.com/view/10808728/SzS8rjbc) and can be further expanded with optional premium features. 
+This API is offered by [Covid API](https://covid19api.com/), and the source of all the data is [Johns Hopkins CSSE](https://github.com/CSSEGISandData/COVID-19). 
+The APIs are documented in a [API documentation page](https://documenter.getpostman.com/view/10808728/SzS8rjbc) and can be further expanded with optional premium features. 
 
 ## Authors :technologist:
 
