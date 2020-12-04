@@ -53,24 +53,17 @@ def check_for_username(username, password):
 	global cursor
 
 	# prepare statement to avoid sql injection
-	rows = cursor.execute("SELECT * FROM user") # WHERE username = ? AND password = ?", (username, password))
+	rows = cursor.execute("SELECT * FROM user WHERE username = ?", (username,))
 	conn.commit()
 	results = rows.fetchall()
 
-	for i in range(len(results)):
-		if results[i][0] == password:
-			# Get the salt from the database
-			salt = results[i][2]
-			# Forming the new password with a new password
-			password = str(results[i][2]) + password
+	password = str(results[0][2]) + password
  
 	# compute hash of the password
 	digest = hashlib.sha256(password.encode("utf-8")).hexdigest()
-	print("password: ", password)
-	print("digest calcol: ", digest)
-	print("stored digest: ", results[i][1].lower())
+
 	# check if computed digest is equal to stored digest
-	if digest == results[i][1].lower():
+	if digest == results[0][1].lower():
 		return True 
 	else: 
 		return False
