@@ -57,9 +57,15 @@ In order to run ```main.py``` the user needs to provide **username** and the rel
 - *password*: **admin**.
 
 #### How to add a new user
-In order to add a new user to the database you have to run the ```database.py``` file with the command ```-a```. You should also specify the new password. 
+In order to add a new user to the database, you have to run the ```database.py``` file with the command ```-a```. You should also specify the new password. 
 
 Here an example: ```$python database.py -a andrea -p helloworld```.
+
+#### How to show all users
+In order to show all the users in the database, you have to run the ```database.py``` file with the command ```-d```. You **must login as admin**.
+
+Here an example: ```$python database.py -u admin -p admin -d```.
+
 
 ## Project Requirements :warning:  
 The project requires different Python libraries to run, namely ```json```, ```requests```, ```pandas```, ```hashlib```, ```os```, ```random```, ```sqlite3``` and ```argparse```. 
