@@ -92,10 +92,10 @@ The APIs are documented in a [API documentation page](https://documenter.getpost
 
 ## Authors :technologist:
 
-- Ballistri Luca, Student ID: 872254
-- Parisi Andrea, Student ID: 874633
-- Querci Pietro, Student ID: 872401
-- Scalabrin Dario, Student ID: 872700
+- [Dario Scalabrin](https://www.linkedin.com/in/scalabrindario/)
+- [Andrea Parisi](https://www.linkedin.com/in/andrea-parisi-17950b197)
+- [Luca Ballistri](https://www.linkedin.com/in/lucaballistri/)
+- [Pietro Querci](https://www.linkedin.com/in/pietro-querci-79b965176/)
 
 ## License :page_facing_up:
 [MIT](https://choosealicense.com/licenses/mit/)
